@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Oldenburg&display=swap');
+    </style>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="imglogo">
+                <a href="index.html">
+                    <img src="./imagem/logo Paola.png" width="200px" alt="Logo">
+                </a>
+            </div>
+            <div class="container">
+                <a class="nav-link" href="trabalhos.html" target="_blank">Trabalhos</a>
+                <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+                <a class="nav-link" href="contato.html" target="_blank">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="textodohis">Entrar em Contato</div>
+        <div class="formularioContato">
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <label>
+                    <strong>
+                        <span><i class="icon icon-user-1"></i> Nome</span>
+                    </strong>
+                    <input type="text" name="nome" required="">
+                </label>
+
+                <label>
+                    <strong>
+                        <span><i class="icon icon-email"></i> E-mail</span>
+                    </strong>
+                    <input type="text" name="email" class="fade_8S">
+                </label>
+
+                <label>
+                    <strong>
+                        <span><i class="icon icon-telefone"></i>Telefone</span>
+                    </strong>
+                    <input type="number" name="telefone" class="fade_8S">
+                </label>
+
+                <label>
+                    <strong>
+                        <span><i class="icon icon-flag"></i> Assunto</span>
+                    </strong>
+                    <input type="text" name="assunto" required="">
+                </label>
+
+                <label>
+                    <strong>
+                        <span><i class="icon icon-comment"></i> Mensagem</span>
+                    </strong>
+                    <textarea name="mensagem" rows="5" required=""></textarea>
+                </label>
+
+                <label>
+                    <input type="hidden" name="acao" value="enviar" />
+                    <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+                </label>
+            </form>
+
+        </div>
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="logorodape">
+
+            <img src="./imagem/logo Paola.png" alt="" width="200px">
+            <div class="textorodape">
+                <div class="contato-wrapper">
+                    <a href="./contato.html">------------------------------------------------------------------------------------------------------------------------------------------</a>
+                    <section id="contato">
+                    </section>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

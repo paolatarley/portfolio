@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Oldenburg&display=swap');
+    </style>
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="imglogo">
+                <a href="index.html">
+                    <img src="./imagem/logo Paola.png" width="200px" alt="Logo">
+                </a>
+            </div>
+            <div class="container">
+                <a class="nav-link" href="trabalhos.html" target="_blank">Trabalhos</a>
+                <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+                <a class="nav-link" href="contato.html" target="_blank">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="textoum">Quem sou eu?</div>
+        <div class="content">
+            <div class="textodois">
+                <h2> Uma das minhas paixões é a fotografia instantânea, especialmente com câmeras Polaroid. Eu amo
+                    documentar minhas viagens e experiências com elas. Também concluí um curso de inglês de seis anos, o
+                    que me proporcionou não apenas fluência na língua, mas também a confiança para explorar o mundo. Até
+                    agora, tive a oportunidade de visitar três países, e cada viagem me proporcionou novas inspirações e
+                    perspectivas que influenciam meu trabalho. Neste site, você encontrará uma coleção dos meus
+                    trabalhos em Photoshop e algumas das minhas fotografias favoritas. Também escrevo um blog onde
+                    compartilho insights sobre o mundo da multimídia, minhas aventuras e o que estou aprendendo ao longo
+                    do caminho.</h2>
+            </div>
+            <div class="imagempaola">
+                <img src="./imagem/paolaimg.jfif" alt="" width="220px" height="370px">
+            </div>
+            <div class="imagempaola2">
+                <img src="./imagem/paola2 (2).jfif" alt="" width="280px" height="370px">
+            </div>
+        </div>
+
+        <div class="portfolio">Portfólio</div>
+
+        <section class="carrosseis">
+            <div class="carrossel" id="carrossel-fotografias">
+                <h3 >Fotografias</h3>
+                <div class="carrossel-images">
+                    <img src="./imagem/carrosel1.webp" alt="Imagem 1">
+                    <img src="./imagem/carrosel2.png" alt="Imagem 2">
+                    <img src="./imagem/carrosel3.JPG" alt="Imagem 3">
+                </div>
+                <button class="prev" onclick="moveSlide(-1, 'carrossel-fotografias')">&#10094;</button>
+                <button class="next" onclick="moveSlide(1, 'carrossel-fotografias')">&#10095;</button>
+            </div>
+        
+            <div class="carrossel" id="carrossel-photoshop">
+                <h3>Photoshop</h3>
+                <div class="carrossel-images">
+                    <img src="./imagem/photoshop1.jpg" alt="Imagem 1">
+                    <img src="./imagem/photoshop2.jpg" alt="Imagem 2">
+                </div>
+                <button class="prev" onclick="moveSlide(-1, 'carrossel-photoshop')">&#10094;</button>
+                <button class="next" onclick="moveSlide(1, 'carrossel-photoshop')">&#10095;</button>
+            </div>
+        </section>
+        
+
+    </main>
+    <footer>
+
+        <div class="logorodape">
+
+            <img src="./imagem/logo Paola.png" alt="" width="200px">
+            <div class="textorodape">
+                <div class="contato-wrapper">
+                    <a href="./contato.html">Entrar em Contato</a>
+                    <section id="contato">
+                    </section>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
